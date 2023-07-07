@@ -86,3 +86,38 @@
 .login-button:hover {
   background-color: #cc6504;
 }
+
+.container-box{
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.container-box>img{
+  height:256px;
+  width: 256px;
+  mix-blend-mode: multiply;
+}
+.container-box>button{
+  border-radius: 8px;
+  background:#FFCB00;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+}
+.container-box>h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 8rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
