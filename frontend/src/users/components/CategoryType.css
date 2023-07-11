@@ -1,0 +1,15 @@
+.category-name{
+    margin: 0;
+    color: #000;
+    font-size: 64.894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin: 36px 0;
+}
